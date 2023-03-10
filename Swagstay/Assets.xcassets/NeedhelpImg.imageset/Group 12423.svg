@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.162" height="14" viewBox="0 0 12.162 14">
+  <g id="Group_12423" data-name="Group 12423" transform="translate(-280 -288)">
+    <g id="Group_12422" data-name="Group 12422">
+      <g id="Group_12421" data-name="Group 12421">
+        <path id="Icon_material-live-help" data-name="Icon material-live-help" d="M13.767,3H5.658A1.158,1.158,0,0,0,4.5,4.158v8.108a1.158,1.158,0,0,0,1.158,1.158H7.975l1.737,1.737,1.737-1.737h2.317a1.162,1.162,0,0,0,1.158-1.158V4.158A1.162,1.162,0,0,0,13.767,3Z" transform="translate(277 304.925) rotate(-90)" fill="#51a654"/>
+        <text id="_" data-name="?" transform="translate(283 299)" fill="#fff" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">?</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="OrderProduct" representedClassName="OrderProduct" syncable="YES" codeGenerationType="class"/>
+    <entity name="Product" representedClassName="Product" syncable="YES">
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="product" optional="YES" attributeType="String"/>
+        <attribute name="productImage" optional="YES" attributeType="String"/>
+        <attribute name="productName" optional="YES" attributeType="String"/>
+        <attribute name="productWeight" optional="YES" attributeType="String"/>
+        <attribute name="productWeightCount" optional="YES" attributeType="String"/>
+        <attribute name="productWeightGram" optional="YES" attributeType="String"/>
+        <attribute name="quantity" optional="YES" attributeType="String"/>
+        <attribute name="uom" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Product" positionX="-54" positionY="-9" width="128" height="164"/>
+        <element name="OrderProduct" positionX="-45" positionY="54" width="128" height="29"/>
+    </elements>
+</model>

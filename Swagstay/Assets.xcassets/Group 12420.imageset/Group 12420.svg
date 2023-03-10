@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+  <g id="Group_12420" data-name="Group 12420" transform="translate(0 -0.177)">
+    <g id="Oval">
+      <circle id="Oval-2" data-name="Oval" cx="14.5" cy="14.5" r="14.5" transform="translate(0 0.177)" fill="none"/>
+      <circle id="Oval-3" data-name="Oval" cx="14.5" cy="14.5" r="14.5" transform="translate(0 0.177)" fill="#fff"/>
+    </g>
+    <path id="Icon" d="M13.106,1.1a3.736,3.736,0,0,0-5.285,0l-.72.72L6.38,1.1A3.737,3.737,0,0,0,1.095,6.38l.72.72L7.1,12.386,12.386,7.1l.72-.72a3.736,3.736,0,0,0,0-5.285Z" transform="translate(7.294 8.915)" fill="none" stroke="#4c97a1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

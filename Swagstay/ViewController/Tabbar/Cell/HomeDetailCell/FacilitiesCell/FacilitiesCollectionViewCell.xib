@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FacilitiesCollectionViewCell" customModule="Swagstay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2tM-x8-wqn">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bmO-Dy-Gp0">
+                                <rect key="frame" x="5" y="2.6666666666666643" width="80" height="82.333333333333343"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Iiw-Lx-y0p">
+                                        <rect key="frame" x="5" y="10.666666666666668" width="70" height="60.666666666666657"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wifi" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="PSW-m8-TlD">
+                                                <rect key="frame" x="0.0" y="2.3333333333333321" width="70" height="35.666666666666671"/>
+                                                <color key="tintColor" red="0.27843138579999999" green="0.61568629740000003" blue="0.60392159219999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="mra-dF-nVw"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free Wifi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="T3x-aD-MpW">
+                                                <rect key="frame" x="0.0" y="45" width="70" height="15.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="13"/>
+                                                <color key="textColor" red="0.44705885649999999" green="0.44705885649999999" blue="0.44705885649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="T3x-aD-MpW" firstAttribute="top" secondItem="PSW-m8-TlD" secondAttribute="bottom" constant="5" id="3dF-Q8-Cvv"/>
+                                            <constraint firstAttribute="bottom" secondItem="T3x-aD-MpW" secondAttribute="bottom" id="XY3-K1-bYq"/>
+                                            <constraint firstItem="T3x-aD-MpW" firstAttribute="leading" secondItem="Iiw-Lx-y0p" secondAttribute="leading" id="cmw-Ds-E7c"/>
+                                            <constraint firstAttribute="trailing" secondItem="T3x-aD-MpW" secondAttribute="trailing" id="eER-Tj-bU7"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Iiw-Lx-y0p" secondAttribute="trailing" constant="5" id="51G-xR-1rP"/>
+                                    <constraint firstItem="Iiw-Lx-y0p" firstAttribute="centerX" secondItem="bmO-Dy-Gp0" secondAttribute="centerX" id="ECL-ff-vzb"/>
+                                    <constraint firstItem="Iiw-Lx-y0p" firstAttribute="centerY" secondItem="bmO-Dy-Gp0" secondAttribute="centerY" id="LIq-fD-hjS"/>
+                                    <constraint firstAttribute="width" constant="80" id="SUC-Wy-fMI"/>
+                                    <constraint firstItem="Iiw-Lx-y0p" firstAttribute="leading" secondItem="bmO-Dy-Gp0" secondAttribute="leading" constant="5" id="hgI-SP-aKC"/>
+                                    <constraint firstAttribute="height" constant="82.5" id="ltj-39-yuD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bmO-Dy-Gp0" secondAttribute="trailing" constant="5" id="CCV-8d-7jV"/>
+                            <constraint firstAttribute="bottom" secondItem="bmO-Dy-Gp0" secondAttribute="bottom" constant="5" id="S6t-SZ-xXb"/>
+                            <constraint firstItem="bmO-Dy-Gp0" firstAttribute="leading" secondItem="2tM-x8-wqn" secondAttribute="leading" constant="5" id="eQe-3G-ott"/>
+                            <constraint firstItem="bmO-Dy-Gp0" firstAttribute="top" secondItem="2tM-x8-wqn" secondAttribute="top" constant="2.5" id="ehx-T9-dmV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="2tM-x8-wqn" secondAttribute="bottom" id="90b-mO-XeE"/>
+                <constraint firstItem="2tM-x8-wqn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="FEZ-wH-Nfm"/>
+                <constraint firstAttribute="trailing" secondItem="2tM-x8-wqn" secondAttribute="trailing" id="L5R-P5-fEw"/>
+                <constraint firstItem="2tM-x8-wqn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="W3R-0f-8ZQ"/>
+            </constraints>
+            <size key="customSize" width="151" height="145"/>
+            <connections>
+                <outlet property="imgFacilities" destination="PSW-m8-TlD" id="Php-YL-Ste"/>
+                <outlet property="lblFacilities" destination="T3x-aD-MpW" id="tkI-SW-MAR"/>
+            </connections>
+            <point key="canvasLocation" x="64.885496183206101" y="0.35211267605633806"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="wifi" catalog="system" width="128" height="90"/>
+    </resources>
+</document>

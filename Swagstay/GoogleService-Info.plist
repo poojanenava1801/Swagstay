@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>611512267167-fes9uil9jquialk5qp548v5cn9obp3v3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.611512267167-fes9uil9jquialk5qp548v5cn9obp3v3</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>611512267167-vvt0a7e4v9cpm4m3757asao9ti3omngh.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC2ci88cDP6_HyBwRv73z02xUfQtOLBwZ8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>611512267167</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>in.triosoft.swagstayhotel</string>
+	<key>PROJECT_ID</key>
+	<string>android-application-e1a81</string>
+	<key>STORAGE_BUCKET</key>
+	<string>android-application-e1a81.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:611512267167:ios:ff2f41310e98752f60cdaa</string>
+	<key>DATABASE_URL</key>
+	<string>https://android-application-e1a81.firebaseio.com</string>
+</dict>
+</plist>
